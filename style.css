@@ -1,0 +1,168 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+* {
+	font-size: 62.5%;
+}
+
+@font-face {
+    font-family: Dense;
+    src: url(Dense.otf);
+}
+
+/* header selectors */
+
+header {
+	margin-top: 0;
+	padding-top: 0;
+	background-color: rgb(45, 45, 45) !important;
+	height: 70px;
+	position: fixed;
+	width: 100%;
+}
+
+header img {
+	margin-top: 0;
+	padding-top: 0;
+	display: block;
+	position: absolute;
+	margin-right: auto;
+	max-width: 112px;
+	max-height: 114px;
+	z-index: 100;
+}
+
+header h1 {
+	font-family: Dense;
+	margin-top: 0;
+	padding-top: 0;
+	margin-left: 112px;
+	font-size: 12em;
+	padding-top: 20px;
+	color: #FFDF00;
+	position: relative;
+}
+
+header h1:before{
+    content: "BAGUIO CITY EMERGENCY HOTLINES";
+    height: 35%; 
+    position: absolute;
+    color: #F3F315;
+    overflow: hidden; 
+}
+
+/* button-related */
+
+div.container-toggle {
+	background-color: rgb(112, 112, 112) !important;
+	position: fixed;
+	right: 0;
+	height: 100%;
+	width: 200px;
+	margin-top: 70px;
+}
+
+div.instructions {
+	margin: 20px 20px 20px 20px;
+	color: #FFDF00;
+	font-family: Dense, Verdana, Arial, sans-serif;
+	font-size: 18em;
+	text-align: center;
+}
+
+/* Dawn */
+
+ul {
+    display: block;
+    list-style-type: none;
+}
+
+li {
+    margin: 30px;
+    margin-left:0;
+}
+
+.buttons {
+    border: none;
+    position: relative;
+    border-radius: 100%;
+    cursor: pointer;
+    display: block;
+    height: 18em;
+    width: 18em;
+    transition: all .1s ease;
+}
+
+.buttons:hover {
+    border: none;
+    position: relative;
+}
+
+.buttons:active {
+    border: none;
+    position: relative;
+    top: 2px;
+}
+
+.buttons:focus {
+    outline: none;
+    border: none;   
+    top: 2px; 
+}
+
+#firestation {
+    background-image: url(./img/btn_fireman.png);
+    background-size: contain;
+    box-shadow: 0 -10px 0 #be2222 inset, 0 5px 25px rgba(65, 8, 8, 0.17), 0 5px rgba(255, 255, 255, 0.11) inset;
+}
+
+#firestation:hover {
+    background-image: url(./img/btn_fireman2.png);
+    background-size: contain;
+    box-shadow: 0 -10px 0 #8d1717 inset, 0 5px 25px rgba(0, 0, 0, 0.17), 0 5px rgba(255, 255, 255, 0.150) inset;
+}
+
+#firestation:focus {
+    background-image: url(./img/btn_fireman2.png);
+    background-size: contain;
+    box-shadow: 0 -5px 0 #8d1717 inset, 0 3px 6px rgba(0, 0, 0, 0.17), 0 5px rgba(255, 255, 255, 0.178) inset;
+}
+
+#hospital {
+    background-image: url(./img/btn_nurse.png);
+    background-size: contain;
+    box-shadow: 0 -10px 0 #0b9512 inset, 0 5px 25px rgba(65, 8, 8, 0.17), 0 5px rgba(255, 255, 255, 0.11) inset;
+}
+
+#hospital:hover {
+    background-image: url(./img/btn_nurse2.png);
+    background-size: contain;
+    box-shadow: 0 -10px 0 #047a0a inset, 0 5px 25px rgba(0, 0, 0, 0.17), 0 5px rgba(255, 255, 255, 0.150) inset;
+}
+
+#hospital:focus {
+    background-image: url(./img/btn_nurse2.png);
+    background-size: contain;
+    box-shadow: 0 -5px 0 #047a0a inset, 0 3px 6px rgba(0, 0, 0, 0.17), 0 5px rgba(255, 255, 255, 0.178) inset;
+}
+
+#policestation {
+    background-image: url(./img/btn_police.png);
+    background-size: contain;
+    box-shadow: 0 -10px 0 #0e298c inset, 0 5px 25px rgba(65, 8, 8, 0.17), 0 5px rgba(255, 255, 255, 0.11) inset;
+}
+
+#policestation:hover {
+    background-image: url(./img/btn_police2.png);
+    background-size: contain;
+    box-shadow: 0 -10px 0 #031863 inset, 0 5px 25px rgba(0, 0, 0, 0.17), 0 5px rgba(255, 255, 255, 0.089) inset;
+}
+
+#policestation:focus {
+    background-image: url(./img/btn_police2.png);
+    background-size: contain;
+    box-shadow: 0 -5px 0 #031863 inset, 0 3px 6px rgba(0, 0, 0, 0.17), 0 5px rgba(255, 255, 255, 0.089) inset;
+}
