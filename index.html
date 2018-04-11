@@ -2,21 +2,23 @@
 <html>
 <head>
     <meta charset=utf-8 />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Baguio City Emergency Hotlines</title>
-	<script src="create.js" async></script>
-    <script>
-        document.onreadystatechange = function(){ 
-            if(document.readyState === 'complete') {
-                addPolice();
-                addFire();
-                addHost();
-            }
-        }
-    </script>
     <link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="responsiveness.css"/>
+	<script src="create.js" async></script>
+	<script>
+		document.onreadystatechange = function() {
+			if(document.readyState === 'complete') {
+				addPolice();
+                addFireStations();
+                addHospitals();
+			}
+		}
+	</script>
 </head>
 <body>
-    <header>
+    <header>	
 		<img src="./img/logo.png" id="logo">
         <h1>BAGUIO CITY EMERGENCY HOTLINES</h1>
 	</header>
@@ -28,31 +30,27 @@
 		
 		<div class="container-buttons">
 			<ul>
-				<li><a href='#' class='active' id="button1" data-filter='Police'><button class="buttons" id="policestation" href=""></button></a></li>
+				<li><a href='#' class='active' id="button1" data-filter='Police'><button onclick="showPolice()" class="buttons" id="policestation" href=""></button></a></li>
                 
-				<li><a href='#' id="button2" data-filter='Hospitals' ><button class="buttons" id="hospital" href=""></button></a></li>
+				<li><a href='#' id="button2" data-filter='Hospitals' ><button onclick="showHospitals()"class="buttons" id="hospital" href=""></button></a></li>
                 
-				<li><a href='#' id="button3" data-filter='FireStation'><button class="buttons" id="firestation" href=""></button></a></li>
+				<li><a href='#' id="button3" data-filter='FireStation'><button onclick="showFireStation()" class="buttons" id="firestation" href=""></button></a></li>
 			</ul>
 		</div>
 	</div>
-	
 	<div class="container-map">
 		<object type="image/svg+xml" data="map2.svg" id="mymap"></object>  
 	</div>
-	
-	
-    <script type="text/javascript">
-    if (navigator.serviceWorker.controller) {
-        console.log('[PWA Builder] active service worker found, no need to register')
-    } else {
-        navigator.serviceWorker.register('pwabuilder-sw.js', {
-            scope: './'
-        }).then(function(reg) {
-            console.log('Service worker has been registered for scope:'+ reg.scope);
-        });
-    }
-    </script>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
 </body>
 </html>
     
