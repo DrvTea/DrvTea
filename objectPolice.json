@@ -1,0 +1,111 @@
+[{
+    "id" : "police1",
+	"image" : "./img/Stations/police1.jpg",
+	"name":"Baguio City Police Office Station 1", 
+    "x" : "685",
+    "y" : "199",
+	"details":[{
+		"adress": "Quirino Hwy, Baguio, Benguet",
+		"phone": "(074) 424 2697"
+	}],
+    "icon" : "./img/markers/police.png"
+}, {
+    "id" : "police2",
+	"image" : "./img/Stations/police2.jpg",
+	"name":"Baguio City Police Office Station 2",
+    "x" : "685",
+    "y" : "45",
+	"details":[{
+		"adress": "Camdas, Baguio, Benguet",
+		"phone": "(074) 661 1255"
+	}],
+    "icon" : "./img/markers/police.png"
+}, {
+    "id" : "police3",
+	"image" : "./img/Stations/police3.jpg",
+	"name":"Baguio City Police Office Station 3", 
+    "x" : "930",
+    "y" : "155",
+	"details":[{
+		"adress": "Pacdal Circle, Baguio, Benguet",
+		"phone": "(074) 424 0670"
+	}],
+    "icon" : "./img/markers/police.png"
+}, {
+    "id" : "police4",
+	"image" : "./img/Stations/police4.jpg",
+	"name":"Baguio City Police Office Station 4", 
+    "x" : "975",
+    "y" : "605",
+	"details":[{
+		"adress": "PEZA, Loakan, Baguio, Benguet",
+		"phone": "(074) 424 0992"
+	}],
+    "icon" : "./img/markers/police.png"
+}, {
+    "id" : "police5",
+	"image" : "./img/Stations/police5.jpg",
+	"name":"Baguio City Police Office Station 5", 
+    "x" : "705",
+    "y" : "355",
+	"details":[{
+		"adress": "Legarda, Marcos Highway, Baguio, Benguet",
+		"phone": "(074) 442 0629"
+	}],
+    "icon" : "./img/markers/police.png"
+}, {
+    "id" : "police6",
+	"image" : "./img/Stations/police6.jpg",
+	"name":"Baguio City Police Office Station 6", 
+    "x" : "780",
+    "y" : "115",
+	"details":[{
+		"adress": "Aurora Hill, Baguio City, Baguio, Benguet",
+		"phone": "(074) 424 2174"
+	}],
+    "icon" : "./img/markers/police.png"
+}, {
+    "id" : "police7",
+	"image" : "./img/Stations/police7.jpg",
+	"name":"Baguio City Police Office Station 7", 
+    "x" : "750",
+    "y" : "195",
+	"details":[{
+		"adress": "Central Business District, Baguio, Benguet",
+		"phone": "(074) 661 1489"
+	}],
+    "icon" : "./img/markers/police.png"
+}, {
+    "id" : "police8",
+	"image" : "./img/Stations/police8.jpg",
+	"name":"Baguio City Police Office Station 8", 
+    "x" : "870",
+    "y" : "690",
+	"details":[{
+		"adress": "Camp 7, Kennon Road, Baguio, Benguet",
+		"phone": "(074) 424 2681"
+	}],
+    "icon" : "./img/markers/police.png"
+}, {
+    "id" : "police9",
+	"image" : "./img/Stations/police9.jpg",
+	"name":"Baguio City Police Office Station 9", 
+    "x" : "545",
+    "y" : "225",
+	"details":[{
+		"adress": "Irisan, Baguio, Benguet",
+		"phone": "(074) 424 8834"
+	}],
+    "icon" : "./img/markers/police.png"
+}, {
+    "id" : "police10",
+	"image" : "./img/Stations/police10.jpg",
+	"name":"Baguio City Police Office Station 10", 
+    "x" : "500",
+    "y" : "515",
+	"details":[{
+		"adress": "Green Valley, Marcos Highway, Baguio, Benguet",
+		"phone": "(074) 422 2662"
+	}],
+    "icon" : "./img/markers/police.png"
+}]

@@ -13,6 +13,11 @@ html, body {
     src: url(Dense.otf);
 }
 
+@font-face {
+    font-family: proxima;
+    src: url(proxima.otf);
+}
+
 /* header selectors */
 
 header {
@@ -212,8 +217,13 @@ div.details {
     padding: 20px;
     border: 1px solid #888;
     width: 30%;
-    font-size: 28px;
+    font-size: 12em;
     text-align: center;
+	font-family: proxima;
+}
+
+img.view {
+	max-width: 100%;
 }
 
 #callnow {

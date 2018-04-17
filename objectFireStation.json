@@ -1,0 +1,45 @@
+[{
+    "id" : "fire1",
+	"image" : "./img/Stations/fire1.jpg",
+	"name":"CRASH FIRE RESCUE UNIT", 
+    "x" : "905",
+    "y" : "665",
+	"details":[{
+		"adress": "Demonstration Mines Road, North Central, Baguio, 2600 Benguet",
+		"phone": "(074) 424 2681"
+	}],
+    "icon" : "./img/markers/firestation.png"
+}, {
+    "id" : "fire2",
+	"image" : "./img/Stations/fire2.jpg",
+	"name":"Aurora Hill FIRE STATION",
+    "x" : "815",
+    "y" : "40",
+	"details":[{
+		"adress": "Rimando Rd, Baguio, 2600 Benguet",
+		"phone": "(074) 661 7169"
+	}],
+    "icon" : "./img/markers/firestation.png"
+}, {
+    "id" : "fire3",
+	"image" : "./img/Stations/fire3.jpg",
+	"name":"Irisan Fire Station", 
+    "x" : "250",
+    "y" : "125",
+	"details":[{
+		"adress": "Naguilian Rd, Baguio, 2600 Benguet",
+		"phone": "(074) 424 8834"
+	}],
+    "icon" : "./img/markers/firestation.png"
+}, {
+    "id" : "fire4",
+	"image" : "./img/Stations/fire4.jpg",
+	"name":"Baguio City Central Fire Station", 
+    "x" : "655",
+    "y" : "185",
+	"details":[{
+		"adress": "1 Corner Abanao and Kayang Streets, Baguio, 2600 Benguet",
+		"phone": "(074) 442 2222"
+	}],
+    "icon" : "./img/markers/firestation.png"
+}]
